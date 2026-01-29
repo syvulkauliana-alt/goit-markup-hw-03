@@ -144,16 +144,14 @@ ul {
     letter-spacing: 0.04em;
     cursor: pointer;
     font-weight: 500;
-    display: inline-block;
-    justify-content: flex-start;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
     padding: 16px;
     width: 169px;
     height: 56px;
     border-radius: 4px;
     margin-top: 48px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .button:hover,
@@ -272,7 +270,6 @@ ul {
 .team-item-person {
     text-align: left;
 }
-
 
 
 .portfolio-header {
