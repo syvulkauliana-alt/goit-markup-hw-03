@@ -121,6 +121,11 @@ ul {
     background-color: #2e2f42;
 }
 
+.main-section .container {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 .main-title {
     text-align: center;
     color: #fff;
@@ -130,10 +135,9 @@ ul {
     letter-spacing: 0.02em;
     display: block;
     justify-content: center;
-    padding-top: 188px;
-    padding-right: 472px;
-    padding-bottom: 292px;
-    padding-left: 472px;
+    padding-right: 316px;
+    padding-bottom: 48px;
+    padding-left: 316px;
     margin-bottom: 0;
 }
 
@@ -144,11 +148,9 @@ ul {
     letter-spacing: 0.04em;
     cursor: pointer;
     font-weight: 500;
-    display: block;
-    padding: 16px;
-    width: 169px;
-    height: 56px;
     border-radius: 4px;
+    display: block;
+    padding: 16px 32px;
     margin-top: 48px;
     margin-right: auto;
     margin-left: auto;
@@ -220,6 +222,11 @@ ul {
     background-color: #f4f4fd;
 }
 
+.team-section .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .team-header {
     display: flex;
     text-align: center;
@@ -228,11 +235,6 @@ ul {
     margin-right: auto;
     margin-bottom: 72px;
     margin-left: auto;
-}
-
-.team-section .container {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .team-list {
@@ -288,7 +290,6 @@ ul {
     margin-right: auto;
 }
 
-
 .portfolio-list {
     display: flex;
     justify-content: space-evenly;
@@ -302,7 +303,6 @@ ul {
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     margin-top: 0;
-    margin-bottom: 48px;
 }
 
 .header-portfolio-item{
@@ -328,31 +328,31 @@ ul {
 .header-portfolio-item:focus,
 .paragraph-portfolio-item:hover,
 .paragraph-portfolio-item:focus {
-   color: #2e2f42; 
+   color: #2e2f42;
 }
 
 .footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo-footer {
     display: inline-flex;
-    margin-top: 100px;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
     color: #f4f4fd;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 
 .paragraph-footer {
     display: flex;
     width: 264px;
-    padding-top: 18px;
     padding-right: auto;
-    padding-bottom: 100px;
     padding-left: auto;
     color: #f4f4fd;
     font-weight: 400;
