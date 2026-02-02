@@ -89,6 +89,7 @@ ul {
 }
 
 .nav-list-item {
+    display: inline-flex;
     text-decoration: none;
     color: inherit;
     font-weight: 500;
@@ -119,12 +120,10 @@ ul {
 
 .main-section {
     background-color: #2e2f42;
-}
-
-.main-section .container {
     padding-top: 188px;
     padding-bottom: 188px;
 }
+
 
 .main-title {
     text-align: center;
@@ -135,10 +134,9 @@ ul {
     letter-spacing: 0.02em;
     display: block;
     justify-content: center;
-    padding-right: 316px;
-    padding-bottom: 48px;
-    padding-left: 316px;
-    margin-bottom: 0;
+    max-width: 496px;
+    margin-left: 316px;
+    margin-right: 316px;
 }
 
 .button {
@@ -188,12 +186,15 @@ ul {
     justify-content: space-evenly;
 }
 
+.features-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .features-list {
     display: flex;
     gap: 24px;
-    margin-top: 120px;
     margin-right: auto;
-    margin-bottom: 120px;
     margin-left: auto;
 } 
 
@@ -220,21 +221,15 @@ ul {
 
 .team-section {
     background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.team-section .container {
-    display: flex;
-    justify-content: space-evenly;
-}
 
 .team-header {
-    display: flex;
-    text-align: center;
     justify-content: center;
-    padding-top: 120px;
-    margin-right: auto;
+    display: flex;
     margin-bottom: 72px;
-    margin-left: auto;
 }
 
 .team-list {
@@ -242,7 +237,6 @@ ul {
     margin-left: auto;
     display: flex;
     gap: 24px;
-    margin-top: 72px;
     justify-content: space-evenly;
     padding-right: auto;
     padding-left: auto;
@@ -274,17 +268,25 @@ ul {
 .team-list-item {
     display: block;
     background-color: #ffffff;
-    display: block;
-    margin-bottom: 120px;
 }
 
 .team-item-person {
     text-align: left;
 }
 
+.portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+}
+
+.portfolio-list-item {
+    width: 360px;
+}
 
 .portfolio-header {
-    margin-top: 120px;
+    display: flex;
+    justify-content: center;
     margin-right: auto;
     margin-bottom: 72px;
     margin-right: auto;
@@ -292,13 +294,16 @@ ul {
 
 .portfolio-list {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 24px;
-    margin-bottom: 120px;
+    column-gap: 24px;
+    row-gap: 48px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .portfolio-list-box {
+    padding-top: 32px;
+    padding-bottom: 32px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
@@ -307,7 +312,7 @@ ul {
 
 .header-portfolio-item{
     display: flex;
-    padding-top: 32px;
+    max-width: 360px;
     margin-bottom: 8px;
     margin-left: 16px;
     text-align: left;
@@ -320,7 +325,6 @@ ul {
 
 .paragraph-portfolio-item {
     margin-left: 16px;
-    margin-bottom: 32px;
 }
 
 
